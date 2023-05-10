@@ -16,14 +16,14 @@ local on_attach = function(client)
   end
 end
 
-lspconfig.cssmodules_ls.setup {
-  filetypes = { "css", "scss", "eruby", "html", "tsx", "javascript", "javascriptreact", "less", "sass", "scss", "svelte",
-    "pug",
-    "typescriptreact", "vue" },
+-- lspconfig.cssmodules_ls.setup {
+--   filetypes = { "css", "scss", "eruby", "html", "tsx", "javascript", "javascriptreact", "less", "sass", "scss", "svelte",
+--     "pug",
+--     "typescriptreact", "vue" },
 
-  on_attach = on_attach,
-  capabilities = capabilities
-}
+--   on_attach = on_attach,
+--   capabilities = capabilities
+-- }
 
 lspconfig.tsserver.setup {
   on_attach = on_attach,

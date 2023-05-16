@@ -13,7 +13,7 @@ vim.opt.relativenumber = false
 -- general
 lvim.log.level = "info"
 lvim.format_on_save = {
-  enabled = true,
+  enabled = false,
   timeout = 1000,
 }
 -- to disable icons and use a minimalist setup, uncomment the following
@@ -25,6 +25,7 @@ lvim.format_on_save = {
 
 -- -- Change theme settings
 -- lvim.colorscheme = "lunar"
+lvim.transparent_window = true
 
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"

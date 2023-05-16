@@ -1,4 +1,5 @@
 lvim.builtin.autopairs.active = true
+lvim.builtin.project.active = true
 lvim.plugins = {
   { 'mattn/emmet-vim' },
   { 'L3MON4D3/LuaSnip' },
@@ -46,6 +47,6 @@ lvim.plugins = {
       require 'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
     end
   },
-  { 'hotoo/jsgf.vim' },
-  { 'amadeus/vim-mjml' }
+  -- { 'hotoo/jsgf.vim' },
+  -- { 'amadeus/vim-mjml' }
 }
